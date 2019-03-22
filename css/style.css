@@ -123,7 +123,34 @@ footer {
     position: relative;
     text-align: center;
     cursor: default;
+}
+
+.color-1 {
+    background: #b04242;
+}
+
+.color-2 {
+    background: #c0682d;
+}
+
+.color-3 {
+    background: #d3ba2a;
+}
+
+.color-4 {
     background: #42b078;
+}
+
+.color-5 {
+    background: #425cb0;
+}
+
+.color-6 {
+    background: #7542b0;
+}
+
+.color-7 {
+    background: #b042a1;
 }
   
 .hovereffect .overlay {
@@ -208,7 +235,7 @@ footer {
 
 #contact {
     margin: auto;
-    margin-top: 50px;
+    margin-top: 40px;
     width: 600px;
 }
 
@@ -218,16 +245,20 @@ footer {
     color: #f9f9f9;
 }
 
+.contact-info {
+    color: #f9f9f9;
+    margin-top: 10px;
+}
+
 form {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .input-box {
     background: #f9f9f9;
     border: 1px solid #9f9f9f;
     outline: none;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     padding: 15px;
     width: 100%;
 }
@@ -237,8 +268,7 @@ form {
     border: 1px solid #9f9f9f;
     outline: none;
     padding: 15px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     height: 120px;
     width: 100%;
 }
@@ -343,7 +373,7 @@ form {
 
 @media screen and (max-width: 768px) {
     .project-thumbnail {
-        max-width: 50%;
+        width: 50%;
     }
 }
 
@@ -368,7 +398,7 @@ form {
     }
 
     .project-thumbnail {
-        max-width: 100%;
+        width: 100%;
     }
 
     #contact {
